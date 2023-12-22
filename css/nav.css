@@ -38,7 +38,15 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 500;
+  background: #101010;
+  --ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 ul {
   margin: 0;

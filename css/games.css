@@ -11,11 +11,17 @@
     --theme: #1e90ff;
     --white: #ffffff;
     --text: #fff;
-  }  
+  }
 
 body {
     background: #202020;
+    --ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .main {
     margin-top: 150px;
