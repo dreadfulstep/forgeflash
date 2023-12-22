@@ -9,7 +9,7 @@ fetch('../assets/games.json')
     games.forEach((game) => {
       const gameEl = document.createElement('div');
       gameEl.className = 'game';
-      gameEl.innerHTML = `<a href="${"/games/" + game.root + "/" + game.file}"><img src="${cdn + "/" + game.root + "/" + game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
+      gameEl.innerHTML = `<a href="${"/games/" + game.root + "/" + game.file}"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
       gamesContainer.appendChild(gameEl);
 }).catch((e) => {
   alert('Could not load games');
