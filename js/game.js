@@ -17,10 +17,7 @@ fetch('../assets/games.json')
       gameEl.className = 'game';
       gameEl.innerHTML = `<a href="${"/games/" + game.root + "/" + game.file}"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
       gamesContainer.appendChild(gameEl);
-}).catch((e) => {
-  alert('Could not load games');
-  alert(e);
-})})
+})});
 
 var button = document.querySelector(".browsegms");
 button.addEventListener("click", function(event) {
