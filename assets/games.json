@@ -1,5 +1,10 @@
 [
-	
+    {
+        "name": "Request A Game",
+        "root": "1v1lol",
+        "file": "",
+        "img": "../images/requestgame.png"
+    },
     {
         "name": "1v1.lol",
         "root": "1v1lol",

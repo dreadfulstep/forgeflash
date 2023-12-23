@@ -6,6 +6,13 @@ fetch('../assets/games.json')
   .then((games) => {
     // Loop through each game and create a new game element for it
     games.forEach((game) => {
+      if (game.name === "Request A Game") {
+        const gameEl = document.createElement('div');
+          gameEl.className = 'game';
+          gameEl.innerHTML = `<a href="https://discord.gg/fQXzYafUFq"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
+          gamesContainer.appendChild(gameEl);
+          return;
+      }
       const gameEl = document.createElement('div');
       gameEl.className = 'game';
       gameEl.innerHTML = `<a href="${"/games/" + game.root + "/" + game.file}"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
