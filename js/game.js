@@ -37,7 +37,7 @@ function filterGames() {
     }
   }
   if (count == 0) {
-    nogames.style.display = "block";
+    nogames.style.display = "initial";
   } else {
     nogames.style.display = "none";
   }
