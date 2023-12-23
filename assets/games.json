@@ -108,6 +108,12 @@
         "img": "../images/jacksmith.jpg"
     },
     {
+        "name": "WildFire",
+        "root": "wildfire",
+        "file": "",
+        "img": "../images/wildfire.png"
+    },
+    {
         "name": "Moto X3M",
         "root": "moto-x3m",
         "file": "",
