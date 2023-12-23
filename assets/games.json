@@ -6,6 +6,42 @@
         "img": "../images/requestgame.png"
     },
     {
+        "name": "Infiltrate The Airship",
+        "root": "infiltrate-the-airship",
+        "file": "",
+        "img": "../images/infiltratetheairship.png"
+    },
+    {
+        "name": "Stealing The Diamond",
+        "root": "stealing-the-diamond",
+        "file": "",
+        "img": "../images/stealingthediamond.jpg"
+    },
+    {
+        "name": "Fleeing The Complex",
+        "root": "fleeing-the-complex",
+        "file": "",
+        "img": "../images/fleeingthecomplex.png"
+    },
+    {
+        "name": "Escaping The Prison",
+        "root": "escaping-the-prison",
+        "file": "",
+        "img": "../images/escapetheprison.jpg"
+    },
+    {
+        "name": "Stickman Golf",
+        "root": "stickman-golf",
+        "file": "",
+        "img": "../images/stickmangolf.png"
+    },
+    {
+        "name": "Stickman Hook",
+        "root": "stickman-hook",
+        "file": "",
+        "img": "../images/stickman-hook.jpg"
+    },
+    {
         "name": "1v1.lol",
         "root": "1v1lol",
         "file": "",
@@ -100,24 +136,6 @@
         "root": "slope",
         "file": "",
         "img": "../images/slope.jpg"
-    },
-    {
-        "name": "Stealing The Diamond",
-        "root": "stealingthediamond",
-        "file": "",
-        "img": "../images/stealingthediamond.jpg"
-    },
-    {
-        "name": "Stickman Golf",
-        "root": "stickman-golf",
-        "file": "",
-        "img": "../images/stickmangolf.png"
-    },
-    {
-        "name": "Stickman Hook",
-        "root": "stickman-hook",
-        "file": "",
-        "img": "../images/stickman-hook.jpg"
     },
     {
         "name": "Subway Surfers",

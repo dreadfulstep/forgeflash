@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf8'>
+        <link rel="stylesheet" href="style.css">
+        <title>Infiltrating The Airship | ForgeFlash</title>
+    </head>
+    <body>
+        <div id='ruffle'></div>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+        <script>
+            var swfWidth = window.innerWidth; //change this
+            var swfHeight = window.innerHeight; //change this
+            var swfobject = {};
+            swfobject.embedSWF = function (url, cont, width, height) {
+                var ruffle = window.RufflePlayer.newest();
+                var player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+                        width: width,
+                        height: height,
+                        style: 'width: 100vw; height: 100vh'
+                    });
+                player.load({
+                    url: url
+                });
+            }
+            
+            swfobject.embedSWF('infiltrating_the_airship.swf', 'ruffle', swfWidth, swfHeight);
+        </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"83a362f9cca36a38","version":"2023.10.0","token":"639b076f1d1c4bbb864ad52dea04893d"}' crossorigin="anonymous"></script>
+</body>
+</html>
