@@ -86,7 +86,7 @@
     {
         "name": "Cars Simulator",
         "root": "cars-simulator",
-        "file": "index.html",
+        "file": "",
         "img": "../images/carssim.jpg"
     },
     {
@@ -98,7 +98,7 @@
     {
         "name": "Drive Mad",
         "root": "drive-mad",
-        "file": "index.html",
+        "file": "",
         "img": "../images/drive-mad.jpg"
     },
     {
@@ -118,7 +118,7 @@
         "root": "moto-x3m",
         "file": "",
         "img": "../images/motox3m2.jpg"
-    }, 
+    },
     {
         "name": "Pixel Gun Survival",
         "root": "pixel-gun-survival",
