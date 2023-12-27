@@ -116,3 +116,7 @@ body::-webkit-scrollbar {
 .searchbar::placeholder {
     color: white;
 }
+
+.browsegms:hover {
+    cursor: pointer
+}
