@@ -196,5 +196,11 @@
         "root": "vex7",
         "file": "",
         "img": "../images/vex7.jpeg"
+    },
+    {
+        "name": "Flappy Bird",
+        "root": "flappybird",
+        "file": "",
+        "img": "../images/flappybird.jpg"
     }
 ]
