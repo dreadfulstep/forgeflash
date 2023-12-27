@@ -132,12 +132,6 @@
         "img": "../images/retro-bowl.jpg"
     },
     {
-        "name": "Run 3",
-        "root": "run3",
-        "file": "",
-        "img": "../images/run3.jpeg"
-    },
-    {
         "name": "Santy Is Home",
         "root": "santy-is-home",
         "file": "",
