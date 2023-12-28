@@ -196,5 +196,11 @@
         "root": "flappybird",
         "file": "",
         "img": "../images/flappybird.jpg"
+    },
+    {
+        "name": "Hole.io",
+        "root": "hole.io",
+        "file": "",
+        "img": "../images/hole.io.jpg"
     }
 ]
