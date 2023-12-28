@@ -262,5 +262,59 @@
         "root": "stack",
         "file": "",
         "img": "../images/stack.jpg"
+    },
+    {
+        "name": "10 Minutes Till Dawn",
+        "root": "10-minutes-till-dawn",
+        "file": "",
+        "img": "../images/10mintildawn.jpg"
+    },
+    {
+        "name": "A Dark Room",
+        "root": "adarkroom",
+        "file": "",
+        "img": ""
+    },
+    {
+        "name": "Ages of Conflict",
+        "root": "ages-of-conflict",
+        "file": "",
+        "img": "../images/agesofconflict.jpg"
+    },
+    {
+        "name": "Angry Sharks",
+        "root": "angry-sharks",
+        "file": "",
+        "img": "../images/angrysharks.jpeg"
+    },
+    {
+        "name": "Astray",
+        "root": "astray",
+        "file": "",
+        "img": ""
+    },
+    {
+        "name": "Bacon May Die",
+        "root": "bacon-may-die",
+        "file": "",
+        "img": "../images/baconmaydie.jpg"
+    },
+    {
+        "name": "Bad Ice Cream 1",
+        "root": "bad-ice-cream",
+        "file": "",
+        "img": "../images/badicecream.jpg"
+    },
+    {
+        "name": "Bad Ice Cream 2",
+        "root": "bad-ice-cream-2",
+        "file": "",
+        "img": "../images/badicecream.jpg"
+    },
+    {
+        "name": "Bad Ice Cream 3",
+        "root": "bad-ice-cream-3",
+        "file": "",
+        "img": "../images/badicecream.jpg"
     }
 ]
