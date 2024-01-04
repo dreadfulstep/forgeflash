@@ -316,5 +316,77 @@
         "root": "bad-ice-cream-3",
         "file": "",
         "img": "../images/badicecream.jpg"
+    },
+    {
+        "name": "Worlds Hardest Game",
+        "root": "worlds-hardest-game",
+        "file": "",
+        "img": "../images/worlds-hardest-game.jpg"
+    },
+    {
+        "name": "Worlds Hardest Game 2",
+        "root": "worlds-hardest-game-2",
+        "file": "",
+        "img": "../images/worlds-hardest-game-2.png"
+    },
+    {
+        "name": "Wordle",
+        "root": "wordle",
+        "file": "",
+        "img": "../images/wordle.jfif"
+    },
+    {
+        "name": "The Heist",
+        "root": "theheist",
+        "file": "",
+        "img": "../images/hideoutgame.png"
+    },
+    {
+        "name": "Temple Run 2",
+        "root": "temple-run-2",
+        "file": "",
+        "img": "../images/temple-run-2.png"
+    },
+    {
+        "name": "Knife Master",
+        "root": "knife-master",
+        "file": "",
+        "img": "../images/knifemaster.png"
+    },
+    {
+        "name": "Kitchen Gun Game",
+        "root": "kitchen-gun-game",
+        "file": "",
+        "img": "../images/gun.png"
+    },
+    {
+        "name": "Stunt Cars 2",
+        "root": "stunt-cars-2",
+        "file": "",
+        "img": "../images/stunt-cars-2.jpg"
+    },
+    {
+        "name": "Stunt Cars 3",
+        "root": "stunt-cars-3",
+        "file": "",
+        "img": "../images/stunt-cars-3.jpg"
+    },
+    {
+        "name": "Mario",
+        "root": "mario",
+        "file": "",
+        "img": "../images/mario.png"
+    },
+    {
+        "name": "Paper.io 2",
+        "root": "paperio2",
+        "file": "",
+        "img": "../images/mario.png"
+    },
+    {
+        "name": "Resent Client",
+        "root": "resent-client",
+        "file": "",
+        "img": "../images/mc.png"
     }
 ]
