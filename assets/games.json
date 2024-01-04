@@ -120,6 +120,30 @@
         "img": "../images/motox3m2.jpg"
     },
     {
+        "name": "Moto X3M 2",
+        "root": "motox3m2",
+        "file": "",
+        "img": "../images/motox3m-2.png"
+    },
+    {
+        "name": "Moto X3M Pool",
+        "root": "motox3m-pool",
+        "file": "",
+        "img": "../images/motox3m-pool.jpg"
+    },
+    {
+        "name": "Moto X3M Winter",
+        "root": "motox3m-winter",
+        "file": "",
+        "img": "../images/motox3m-winter.jpg"
+    },
+    {
+        "name": "Moto X3M Spooky",
+        "root": "motox3m-spooky",
+        "file": "",
+        "img": "../images/motox3m-spooky.jfif"
+    },
+    {
         "name": "Pixel Gun Survival",
         "root": "pixel-gun-survival",
         "file": "",
@@ -381,12 +405,72 @@
         "name": "Paper.io 2",
         "root": "paperio2",
         "file": "",
-        "img": "../images/mario.png"
+        "img": "../images/paperio2.jpg"
     },
     {
         "name": "Resent Client",
         "root": "resent-client",
         "file": "",
         "img": "../images/mc.png"
+    },
+    {
+        "name": "Portal Flash",
+        "root": "portalflash",
+        "file": "",
+        "img": "../images/portalflash.jpg"
+    },
+    {
+        "name": "Ovo",
+        "root": "ovo",
+        "file": "",
+        "img": "../images/ovo.png"
+    },
+    {
+        "name": "Bitlife",
+        "root": "bitlife",
+        "file": "",
+        "img": "../images/bitlife.png"
+    },
+    {
+        "name": "Bloons TD",
+        "root": "bloonstd",
+        "file": "",
+        "img": "../images/bloonstd.jpg"
+    },
+    {
+        "name": "Bloons TD 2",
+        "root": "bloonstd2",
+        "file": "",
+        "img": "../images/bloonstd2.webp"
+    },
+    {
+        "name": "Bloxors",
+        "root": "bloxors",
+        "file": "",
+        "img": "../images/bloxors.jpg"
+    },
+    {
+        "name": "Cell Machine",
+        "root": "cell-machine",
+        "file": "",
+        "img": "../images/cellmachine.jpg"
+    },
+    {
+        "name": "Champion Archer",
+        "root": "championarcher",
+        "file": "",
+        "img": "../images/championarcher.jpg"
+    },
+    {
+        "name": "Connect 3",
+        "root": "connect3",
+        "file": "",
+        "img": "../images/connect3.png"
+    },
+    {
+        "name": "Defend The Tank",
+        "root": "defend-the-tank",
+        "file": "",
+        "img": "../images/defendthetank.jpg"
     }
 ]
