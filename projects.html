@@ -38,7 +38,7 @@
                 <div class="nav__perfil">
                     <div>
                         <a href="#" class="nav__name">ForgeFlash</a>
-                        <span class="nav_description">Speedy, seamless, and sensational online games awaits.</span>
+                        <span class="nav_description">"English help"</span>
                     </div>
                 </div>
                 <div class="nav__menu">
@@ -59,24 +59,38 @@
     </header>
 
     <div class="main">
-        <h1>ForgeFlash Games</h1>
-        <h3><br>Speedy, entertaining, active<br> games below.</h3>
-        <a href="#games"><button class="browsegms">Browse Games</button></a>
+
+        <div class="pagegms" id="pagegms" style="width: 700px; height: 500px; display: none;">
+            <div class="pagegms-content">
+              <iframe class="pagegmsiframe" id="pagegmsiframe" style="width: 700px; height: 500px;"><i class='bx bx-fullscreen' style='color:#ffffff' ></i></iframe>
+              <button class="pagegmsfull" id="pagegmsfull"><i class='bx bx-fullscreen bx-lg' style='color:#ffffff'  ></i></button>
+            </div>
+          </div>
+
+        <h1 class="thing">ForgeFlash Games</h1>
+        <h3 class="thing"><br>"English help"</h3>
+        <a href="#games" class="thing"><button class="browsegms">Browse English</button></a>
         <br><br>
 
-        <div class="search">
-        <input class="searchbar" placeholder="Search For Games" id="search" onkeyup="filterGames()"/>
+        <div class="search thing" style="display: italic;">
+        <input class="searchbar thing" placeholder="Search For Games" id="search" onkeyup="filterGames()"/>
         </div>
-        <div class="games" id="games">    
-              <div class="nogames" style="display: none;">
-                <h1>¯\(°_o)/¯</h1>
-                <p>No results found. If your want to add a game, please make a suggestion to my <a href="https://discord.gg/rqjB2d9Az6">Discord Server</a>.</p>
+        <div class="games thing" id="games" style="display: italic;">    
+              <div class="nogames thing" style="display: none;">
+                <h1 class="thing">¯\(°_o)/¯</h1>
+                <p class="thing">No results found. If your want to add a "project", please make a suggestion to my <a href="https://discord.gg/rqjB2d9Az6">Discord Server</a>.</p>
               </div>
         </div>
         <footer>
             <h3>© ForgeFlash 2024</h3>
         </footer>
     </div>
+
+    <script>
+        pagegmsfull.addEventListener('click', () => {
+          pagegmsiframe.requestFullscreen();
+      })
+    </script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

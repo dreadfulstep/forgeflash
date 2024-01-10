@@ -490,5 +490,11 @@
         "root": "learntofly2",
         "file": "",
         "img": "../images/learntofly2.jpeg"
+    },
+    {
+        "name": "Jetpack Joyride",
+        "root": "learntofly2",
+        "file": "",
+        "img": "../images/jetpackjoyride.png"
     }
 ]

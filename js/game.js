@@ -1,5 +1,9 @@
 const gamesContainer = document.querySelector('.games');
 const gameContainer = document.querySelector('.gamecontainer');
+const thing = document.querySelector('.thing');
+const thing2 = document.querySelector('.pagegms');
+const pagegmsiframe = document.getElementById('pagegmsiframe');
+const fullscreen = document.getElementById('pagegmsclose');
 
 fetch('../assets/games.json')
   .then((res) => res.json())
@@ -9,14 +13,20 @@ fetch('../assets/games.json')
       if (game.name === "Request A Game") {
         const gameEl = document.createElement('div');
           gameEl.className = 'game';
-          gameEl.innerHTML = `<a href="https://discord.gg/fQXzYafUFq"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
+          gameEl.innerHTML = `<img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
           gamesContainer.appendChild(gameEl);
           return;
       }
       const gameEl = document.createElement('div');
       gameEl.className = 'game';
-      gameEl.innerHTML = `<a href="${"/games/" + game.root + "/" + game.file}"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
+      gameEl.innerHTML = `<img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span>`;
       gamesContainer.appendChild(gameEl);
+
+      gameEl.addEventListener('click', () => {
+        thing.style.display = 'none';
+        thing2.style.display = 'block';
+        pagegmsiframe.src = '../games/' + game.root;
+      })
 })});
 
 var button = document.querySelector(".browsegms");
