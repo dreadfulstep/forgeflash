@@ -13,7 +13,7 @@ fetch('../assets/games.json')
       if (game.name === "Request A Game") {
         const gameEl = document.createElement('div');
           gameEl.className = 'game';
-          gameEl.innerHTML = `<a href="https://discord.gg/Yjb9CtbbNe"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
+          gameEl.innerHTML = `<a href="/contact"><img src="${game.img}" onerror="this.src='./assets/globe.svg'"/><span>${game.name}</span></a>`;
           gamesContainer.appendChild(gameEl);
           return;
       }
