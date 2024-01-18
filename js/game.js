@@ -8,7 +8,6 @@ const fullscreen = document.getElementById('pagegmsclose');
 fetch('../assets/games.json')
   .then((res) => res.json())
   .then((games) => {
-    // Loop through each game and create a new game element for it
     games.forEach((game) => {
       if (game.name === "Request A Game") {
         const gameEl = document.createElement('div');
