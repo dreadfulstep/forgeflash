@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
     background-color: #096dd1;
 }
 
-.games {
+.items {
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
     justify-content: center;
@@ -49,11 +49,11 @@ body::-webkit-scrollbar {
     margin: 5rem 2rem 2rem 2rem;
 }
 
-.game a {
+.item a {
     text-decoration: none;
 }
 
-.game {
+.item {
     height: 240px;
     width: 200px;
     background: var(--theme);
@@ -71,16 +71,16 @@ body::-webkit-scrollbar {
     transition: 0.5s;
 }
   
-.game:hover {
+.item:hover {
     transform: scale(1.1);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.616);
 }
   
-.game[hidden] {
+.item[hidden] {
     display: none;
 }
   
-.game img{
+.item img{
     background: var(--theme);
     object-fit: cover;
     height: 200px;
@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
     border-radius: 15px 15px 0 0;
 }
   
-.game>span {
+.item>span {
     line-height: 40px;
     width: 200px;
     text-align: center;
@@ -120,11 +120,6 @@ body::-webkit-scrollbar {
 
 .browsegms:hover {
     cursor: pointer
-}
-
-.pagegmsfull {
-    background: transparent;
-    border: none;
 }
 
 .thing {
