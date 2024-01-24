@@ -1,26 +1,3 @@
-const itemsContainer = document.querySelector('.items');
-const thing = document.querySelector('.thing');
-const thing2 = document.querySelector('.pagegms');
-const pagegmsiframe = document.getElementById('pagegmsiframe');
-const fullscreen = document.getElementById('pagegmsclose');
-
-fetch('../assets/name.json')
-  .then((res) => res.json())
-  .then((items) => {
-    items.forEach((item) => {
-      if (item.name === "Request") {
-        const itemEl = document.createElement('div');
-          itemEl.className = 'item';
-          itemEl.innerHTML = `<a href="/contact"><img src="${item.img}" onerror="this.src='./assets/globe.svg'"/><span>${item.name}</span></a>`;
-          itemsContainer.appendChild(itemEl);
-          return;
-      }
-      const itemEl = document.createElement('div');
-      itemEl.className = 'item';
-      itemEl.innerHTML = `<a href="./math/${item.root}/${item.file}"><img src="${item.img}" onerror="this.src='./assets/globe.svg'"/><span>${item.name}</span></a>`;
-      itemsContainer.appendChild(itemEl);
-})});
-
 var button = document.querySelector(".browsegms");
 button.addEventListener("click", function(event) {
   event.preventDefault();

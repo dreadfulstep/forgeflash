@@ -10,15 +10,12 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", { onProgress: UnityProgress });
+      var gameInstance = UnityLoader.instantiate("itemContainer", "Build/WebGL.json", { onProgress: UnityProgress });
     </script>
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px;"></div>
-      <div class="footer">
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-      </div>
+  <body style="height: 100%; overflow: hidden" scrolling="no">
+    <div class="webgl-content" style="width: 100%; height: 100vh;">
+      <div id="itemContainer" style="width: 100%; height: 100vh;"></div>
     </div>
   </body>
 </html>

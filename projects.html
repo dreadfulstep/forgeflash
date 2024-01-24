@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TSX19EH2CD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TSX19EH2CD');
-</script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3643455991720383"
      crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -76,7 +67,30 @@
             <h3>© ForgeFlash 2024</h3>
         </footer>
     </div>
+    <script>
+        const itemsContainer = document.querySelector('.items');
+const thing = document.querySelector('.thing');
+const thing2 = document.querySelector('.pagegms');
+const pagegmsiframe = document.getElementById('pagegmsiframe');
+const fullscreen = document.getElementById('pagegmsclose');
 
+    fetch('./assets/name.json')
+        .then((res) => res.json())
+        .then((items) => {
+            items.forEach((item) => {
+            if (item.name === "Request") {
+                const itemEl = document.createElement('div');
+                itemEl.className = 'item';
+                itemEl.innerHTML = `<a href="/contact"><img src="${item.img}" onerror="this.src='./assets/globe.svg'"/><span>${item.name}</span></a>`;
+                itemsContainer.appendChild(itemEl);
+                return;
+            }
+            const itemEl = document.createElement('div');
+            itemEl.className = 'item';
+            itemEl.innerHTML = `<a href="./math/${item.root}/${item.file}"><img src="${item.img}" onerror="this.src='./assets/globe.svg'"/><span>${item.name}</span></a>`;
+            itemsContainer.appendChild(itemEl);
+        })});
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="js/nav.js"></script>
