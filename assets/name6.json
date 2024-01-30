@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bad Ice Cream 3",
+        "root": "bad-ice-cream-3",
+        "file": "",
+        "img": "../images/badicecream.jpg"
+    },
+    {
+        "name": "Worlds Hardest Game",
+        "root": "worlds-hardest-game",
+        "file": "",
+        "img": "../images/worlds-hardest-game.jpg"
+    },
+    {
+        "name": "Worlds Hardest Game 2",
+        "root": "worlds-hardest-game-2",
+        "file": "",
+        "img": "../images/worlds-hardest-game-2.png"
+    },
+    {
+        "name": "Wordle",
+        "root": "wordle",
+        "file": "",
+        "img": "../images/wordle.jfif"
+    },
+    {
+        "name": "The Heist",
+        "root": "theheist",
+        "file": "",
+        "img": "../images/hideoutgame.png"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "WildFire",
+        "root": "wildfire",
+        "file": "",
+        "img": "../images/wildfire.png"
+    },
+    {
+        "name": "Moto X3M",
+        "root": "moto-x3m",
+        "file": "",
+        "img": "../images/motox3m2.jpg"
+    },
+    {
+        "name": "Moto X3M 2",
+        "root": "motox3m2",
+        "file": "",
+        "img": "../images/motox3m-2.png"
+    },
+    {
+        "name": "Moto X3M Pool",
+        "root": "motox3m-pool",
+        "file": "",
+        "img": "../images/motox3m-pool.jpg"
+    },
+    {
+        "name": "Moto X3M Winter",
+        "root": "motox3m-winter",
+        "file": "",
+        "img": "../images/motox3m-winter.jpg"
+    }
+]

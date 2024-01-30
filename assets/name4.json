@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Resent Client",
+        "root": "resent-client",
+        "file": "",
+        "img": "../images/mc.png"
+    },
+    {
+        "name": "BlockCraft",
+        "root": "BlockCraft",
+        "file": "",
+        "img": "../images/mc.png"
+    },
+    {
+        "name": "Precision Client",
+        "root": "precision-client",
+        "file": "",
+        "img": "../images/mc.png"
+    }
+]

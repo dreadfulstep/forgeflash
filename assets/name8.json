@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Mario",
+        "root": "mario",
+        "file": "",
+        "img": "../images/mario.png"
+    },
+    {
+        "name": "Paper.io 2",
+        "root": "paperio2",
+        "file": "",
+        "img": "../images/paperio2.jpg"
+    },
+    {
+        "name": "10 Minutes Till Dawn",
+        "root": "10-minutes-till-dawn",
+        "file": "",
+        "img": "../images/10mintildawn.jpg"
+    },
+    {
+        "name": "A Dark Room",
+        "root": "adarkroom",
+        "file": "",
+        "img": ""
+    },
+    {
+        "name": "Ages of Conflict",
+        "root": "ages-of-conflict",
+        "file": "",
+        "img": "../images/agesofconflict.jpg"
+    }
+]
