@@ -1,11 +1,5 @@
 [
     {
-        "name": "Request",
-        "root": "",
-        "file": "",
-        "img": "../images/request.png"
-    },
-    {
         "name": "Infiltrate The Airship",
         "root": "infiltrate-the-airship",
         "file": "",
